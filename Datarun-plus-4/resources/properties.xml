@@ -32,11 +32,11 @@
 	
   <strings>
     <!-- Release name: -->
-    <string id="AppName">Datarun-plus-4</string>
+    <string id="AppName">Datarun-plus</string>
     <!-- Beta name:
-    <string id="AppName">Datarun-plus-4</string>
+    <string id="AppName">Datarun-plus</string>
     -->
-    <string id="AppVersion">2.2</string>
+    <string id="AppVersion">3.3c</string>
     <string id="lTimerDisplay">Timer field</string>
     <string id="lTimerTimer">Timer</string>
     <string id="lTimerLap">Current lap time</string>
@@ -58,7 +58,7 @@
     <string id="lTEffort">Aerobic training effect</string>
     <string id="lETA">Estimated time of arrival</string>
     <string id="lETAfrompace">Estimated finished time based on average or last lap pace</string>
-	<string id="lETAdeviation">Deviation from required finish in hours, minutes and seconds</string>
+	<string id="lETAdeviation">Deviation from required finish in minutes and seconds</string>
 	<string id="lETArequiredpace">Required pace to meet required finish time</string>
     <string id="lElevationGain">Elevation gain</string>
     <string id="lElevationLoss">Elevation loss</string>
