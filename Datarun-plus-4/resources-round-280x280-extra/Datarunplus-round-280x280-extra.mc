@@ -149,7 +149,7 @@ class DatarunView extends Toybox.WatchUi.DataField {
     
     hidden var mtrainingEffect = 0;
 
-	var Garminfont = Ui.loadResource(Rez.Fonts.Garmin1);
+	var Garminfont = Ui.loadResource(Rez.Fonts.Garmin3);
 
     function initialize() {
         DataField.initialize();
@@ -523,7 +523,7 @@ class DatarunView extends Toybox.WatchUi.DataField {
             x = 65;
             dc.drawText(99, 70, Graphics.FONT_SMALL, fTimerSecs, Graphics.TEXT_JUSTIFY_LEFT|Graphics.TEXT_JUSTIFY_VCENTER);
         }
-        dc.drawText(x, 81, Garminfont, fTimer, Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
+        dc.drawText(x, 79, Garminfont, fTimer, Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
         dc.drawText(88, 44, Graphics.FONT_XTINY,  lTime, Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
 
         //! Top row right: distance
@@ -541,7 +541,7 @@ class DatarunView extends Toybox.WatchUi.DataField {
          if (mDistance > 100) {
              fString = "%.1f";
          }
-        dc.drawText(198, 81, Garminfont, mDistance.format(fString), Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
+        dc.drawText(198, 79, Garminfont, mDistance.format(fString), Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
         dc.drawText(193, 44, Graphics.FONT_XTINY,  lDistance, Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
 
         //! Centre middle: current pace
